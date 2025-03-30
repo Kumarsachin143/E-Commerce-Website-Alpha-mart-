@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> product of Redstore</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<a href="index.html"><img src="logo.png" width="100%"></a>
+
+			</div>
+
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="product.html">Product</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="Account_detail.html">Account</a></li>
+
+				</ul>
+			</nav>
+			<a href="card.html"><i class="fa-solid fa-bag-shopping"></i></a>
+			<img src="menu.png" class="manu-bar" onclick="menutoggle()">
+		</div>
+	</div>
+	</header>
+	<!-------------------card-detail page---------------->
+	<div class="small-container card-page">
+		<table>
+			<tr>
+				<th>Product</th>
+				<th>Quantity</th>
+				<th>subtotal</th>
+			</tr>
+			<tr>
+				<td>
+					<div class="card-info">
+						<img src="buy-1.jpg">
+						<div>
+							<p>Red Printed T-Shirt</p>
+							<small>$80.00</small>
+							<br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				</td>
+				<td><input type="number" value='1'></td>
+				<td>$30.00</td>
+
+			</tr>
+			<tr>
+				<td>
+					<div class="card-info">
+						<img src="buy-2.jpg">
+						<div>
+							<p>Red Printed T-Shirt</p>
+							<small>$60.00</small>
+							<br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				</td>
+				<td><input type="number" value='1'></td>
+				<td>$50.00</td>
+
+			</tr>
+			<tr>
+				<td>
+					<div class="card-info">
+						<img src="buy-3.jpg">
+						<div>
+							<p>Red Printed T-Shirt</p>
+							<small>$55.00</small>
+							<br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				</td>
+				<td><input type="number" value='1'></td>
+				<td>$40.00</td>
+
+			</tr>
+		</table>
+		<div class="total-price">
+			<table>
+				<td>subtotal</td>
+				<td>$200.00</td>
+			</tr>
+			<tr>
+				<td>Tax</td>
+				<td>$35.00</td>
+			</tr>
+			<tr>
+				<td>total</td>
+				<td>$235.00</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+	<!------------footer-section--------------->
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col-1">
+						<h3>Download our app</h3>
+						<p>Download app for android and ios iphone. </p>
+						<div class="app-logo">
+							<img src="play-store.png">
+							<img src="app-store.png">
+						</div>
+
+
+					</div>
+					<div class="footer-col-2">
+						<img src="logo-white.png">
+						<p>Our Purpose Is Sustansibly Make the preasure andb<br> benefits of sports Accessible to the
+							many.</p>
+					</div>
+					<div class="footer-col-3">
+						<h3>Usefull Links</h3>
+						<ul>
+							<li>Cupons</li>
+							<li>Blog post</li>
+							<li>Return Policy</li>
+							<li>Join Affiliate</li>
+						</ul>
+					</div>
+					<div class="footer-col-3">
+						<h3>Follow Us</h3>
+						<ul>
+							<li>Twiter</li>
+							<li>Facebook</li>
+							<li>Instagram</li>
+							<li>youtube</li>
+						</ul>
+					</div>
+				</div>
+				<div class="copyright">
+					<hr>Copyright 2024 easy to learn codint.
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		MenuItems.style.maxHeight = "0px";
+		function menutoggle() {
+			if (MenuItems.style.maxHeight == "0px") {
+				MenuItems.style.maxHeight = "200px";
+
+			}
+			else {
+				MenuItems.style.maxHeight = "0px";
+			}
+
+		}
+	</script>
+</body>
+
+</html>
